@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*Colors  Dark blue #506B75 light blue #D9E2E7 light brown #D5C69D darkbrown #7E4E24*/
 body {
-	background-color: #FFFFFF;
+	background-color: #FFF;
 	margin: 0%;
 	padding: 0%;
 	color: #7E4E24;
@@ -26,23 +26,39 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	font-size: 1.25em;
-	padding-bottom: 10%;
-	padding-top: 0%;
+	font-size: 1.125em;
+	padding-bottom: 5%;
+	padding-top: 2%;
 	text-align: center;
 	
 }
 
 h2 {
 	font-size: 0.875em;
+	
+}
+.addresses h2 {
+	
+	font-size: 0.875em;
 	padding-left: 10%;
+}
+
+.hours h2 {
+	
+	font-size: 0.875em;
+	text-align: center;
 }
 
 
 .content {
 	padding: 2%;
 	margin-left: 5%;
-	
+	background-color: #506B75;
+	background-repeat: repeat-y;
+	-webkit-border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	border-radius: 0.5em;
+	padding: 2%;	
 }
 
 .content h2 {
@@ -50,12 +66,9 @@ h2 {
 }
 
 .sidebar1 ul {
-	background-color: #D9E2E7;
-	-webkit-border-radius: 0.5em;
-	-moz-border-radius: 0.5em;
-	border-radius: 0.5em;
+	
 	padding: 2%;
-	color: #7E4E24;
+	
 }
 div.sidebar1 ul {
 	font-size: 0.625em;
@@ -65,6 +78,25 @@ div.sidebar1 ul {
 div.sidebar1 h3{
 	text-align: center;
 	font-size: .625em;
+}
+
+.addresses {
+	-webkit-border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	border-radius: 0.5em;
+	padding: 2%;
+	color: #564333;
+	background-image: url(../images/texturebackground.png);
+	background-repeat: repeat-y;
+}
+.hours {
+	background-color: #506B75;
+	-webkit-border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	border-radius: 0.5em;
+	padding: 2%;
+	color: #FFF;
+	margin-top: 8%;
 }
 
 .newsletter {
@@ -81,13 +113,18 @@ a img {
 	border: none;
 }
 
+img {
+	max-width: 100%;
+	
+}
+
 
 a:link {
-	color: #7E4E24;
+	color: #D5C69D;
 	text-decoration: underline;
 }
 a:visited {
-	color: #D5C69D;
+	color: #564333;
 	text-decoration: underline;
 }
 a:hover, a:active, a:focus { 
@@ -100,13 +137,13 @@ a:hover, a:active, a:focus {
 	width: 80%;
 	max-width: 1260px;
 	min-width: 780px;
-	background-color: #506B75;
+	background-color: #fff;
 	margin: 0 auto; 
 }
 
 
 .header {
-	background-color: #FFFFFF;
+	background-color: #fff;		
 }
 .map {
 	padding-left: 10%;
@@ -119,22 +156,28 @@ a:hover, a:active, a:focus {
 	padding-right: 30%;
 }
 .header a img {
-	background-color: #FFFFFF;
+	background-color: #fff;
 	padding-left: 9%;
 }
 
 .sidebar1 {
 	float: left;
 	width: 40%;
-	background-color: #506B75;
+	background-color: #fff;
+	-webkit-border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	border-radius: 0.5em;
 	padding-bottom: 10px;
+	margin-left: 8%;
+		
 }
 .content {
 	padding: 0 0 5%;
 	margin: 0;
-	width: 60%;
+	width: 45%;
 	float: left;
 	background-color: #fff;
+	
 }
 .content p{ 
 	font-size: .75em;
@@ -163,15 +206,16 @@ a:hover, a:active, a:focus {
 
 ul.nav {
 	list-style: none;
-	padding-top: 5%;
+	padding-top: 2%;
+	padding-bottom: 5%;
+	padding-left:16%;
 	background-color: #FFF;	
 	
 }
 ul.nav li {
 	display: inline;
-	padding: 2%;
 	font-size: 0.775em;
-	color: #7E4E24;	
+	color: #D5C69D;
 }
 .addresses {
 	padding-top: 2%;
@@ -183,12 +227,7 @@ ul.nav a, ul.nav a:visited {
 	padding: 5px 5px 5px 15px;
 	display: inline; 
 	text-decoration: none;
-	background-color: #FFFFFF;
-	color: #D5C69D;
-}
-ul.nav a:hover, ul.nav a:active, ul.nav a:focus { 
-	background-color: #506B75;
-	color: #FFF;
+	
 }
 
 /* ~~ The footer ~~ */
@@ -214,7 +253,195 @@ ul.nav a:hover, ul.nav a:active, ul.nav a:focus {
 	font-size: 1px;
 	line-height: 0px;
 }
+.signup {
+	padding-top: 2%;
+	padding-left: 10%;
+}
+.container .content .tester {
+	display: block;
+}
 
 .logo {
 	background-color: #FFFFFF;	
+}
+@media screen and (min-width: 768px) and (max-width: 959px) {
+/*.container{ background-color:#039;
+	
+}
+*/
+
+.header img {
+	max-width: 100%;
+	padding-right: 1.5%;
+	padding-left: 1.0%;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.logo img {
+	max-width: 100%;
+	padding-top: 0.0625%;
+	padding-left: 15.0%;
+}
+.sidebar1 {
+	float: none;
+	width: 80%;
+	background-color: #fff;
+	-webkit-border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	border-radius: 0.5em;
+	padding-bottom: 10px;
+	margin-left: 10%;
+		
+}
+.content {
+	padding: 0 0 5%;
+	margin: 0;
+	width: 80%;
+	float: none;
+	background-color: #fff;
+	margin-left: 10%;
+	
+	
+}
+nav {
+	
+	background-color: #fff;
+	padding-top: 2px;
+	padding-left: 3%;
+	
+}
+.header a img {
+	background-color: #fff;
+	padding-left: 0%;
+}
+
+
+}
+	
+/*Mobile landscape size to Tablet Portrait size (Devices and Browsers)*/
+@media screen and (min-width: 480px) and (max-width: 767px) {
+
+/*.container{
+	background-color: #0C6;		
+	
+}
+*/
+.header img {
+	max-width: 100%;
+	padding-right: 1.5%;
+	padding-left: 1.0%;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.logo img {
+	max-width: 100%;
+	padding-top: 0.0625%;
+	padding-left: 15.0%;
+}
+.sidebar1 {
+	float: none;
+	width: 80%;
+	background-color: #fff;
+	-webkit-border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	border-radius: 0.5em;
+	padding-bottom: 10px;
+	margin-left: 10%;
+		
+}
+.content {
+	padding: 0 0 5%;
+	margin: 0;
+	width: 80%;
+	float: none;
+	background-color: #fff;
+	margin-left: 10%;
+	
+	
+}
+nav {
+	
+	background-color: #fff;
+	padding-top: 2px;
+	padding-left: 3%;
+	
+}
+.header a img {
+	background-color: #fff;
+	padding-left: 0%;
+}
+ul.nav li {
+	display: block;
+	font-size: 0.775em;
+	color: #D5C69D;
+	padding-left: 25%;
+}
+
+
+}
+
+
+/*Mobile Portrait size to Mobile Landscape size (Devices and Browsers)*/
+@media screen and (max-width: 479px) {
+/*.container{
+	background-color: #FC3;
+}
+*/
+
+.header img {
+	max-width: 100%;
+	padding-right: 1.5%;
+	padding-left: 1.0%;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.logo img {
+	max-width: 100%;
+	padding-top: 0.0625%;
+	padding-left: 15.0%;
+}
+.sidebar1 {
+	float: none;
+	width: 100%;
+	background-color: #fff;
+	-webkit-border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	border-radius: 0.5em;
+	padding-bottom: 10px;
+	margin-left: 0%;	
+		
+}
+.content {
+	padding: 0 0 5%;
+	margin: 0;
+	width: 100%;
+	float: none;
+	background-color: #fff;	
+	
+}
+nav {
+	
+	background-color: #fff;
+	padding-top: 2px;
+	padding-left: 3%;
+	
+}
+.header a img {
+	background-color: #fff;
+	padding-left: 0%;
+}
+ul.nav li {
+	display: block;
+	font-size: 0.775em;
+	color: #D5C69D;
+	padding-left: 25%;
+}
+.container {
+	width: 100%;
+}
+
+
 }
