@@ -140,10 +140,10 @@ a:hover, a:active, a:focus {
 
  
 @media screen and (min-width: 768px) and (max-width: 959px) {
-.container{ background-color:#039;
+/*.container{ background-color:#039;
 	
 }
-
+*/
 .header img {
 	max-width: 100%;
 	padding-right: 1.5%;
@@ -182,12 +182,12 @@ nav {
 /*Mobile landscape size to Tablet Portrait size (Devices and Browsers)*/
 @media screen and (min-width: 480px) and (max-width: 767px) {
 
-.container{
+/*.container{
 	background-color: #0C6;		
 	
 }
 
-
+*/
 .header img {
 	max-width: 100%;
 	padding-right: 1.5%;
@@ -222,10 +222,10 @@ nav {
 
 /*Mobile Portrait size to Mobile Landscape size (Devices and Browsers)*/
 @media screen and (max-width: 479px) {
-.container{
+/*.container{
 	background-color: #FC3;
 }
-
+*/
 .header img {
 	max-width: 100%;
 	padding-right: 1.5%;
