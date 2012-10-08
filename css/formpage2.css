@@ -1,0 +1,301 @@
+@charset "UTF-8";
+/*Colors  Dark logo #506B75 light brown #D5C69D darkbrown #7E4E24*/
+
+body {
+	background-color: #FFFFFF;
+	margin: 0%;
+	padding: 0%;
+	color: #7E4E24;
+	font-family: "Helvetica", Verdana, Arial, sans-serif;
+	font-size: 100%;
+	line-height: 1.4;
+}
+
+
+ul li {
+	list-style: none;
+	padding: 0%;
+	margin: 0% 0.1875% 0% 0%;
+	display: inline;
+	font-family: Helvetica;
+	color: #7E4E24;
+	font-size: 0.75em;
+}
+
+
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;
+	padding-right: 0.1875%;
+	padding-left: 0.1875%;
+	font-family: "Helvetica";
+	
+}
+
+h2 {
+	font-size: 1.0em;
+}
+
+a img { 
+	border: none;
+	
+}
+img {
+	max-width: 100%;
+	
+}
+
+
+.header img {
+	max-width: 100%;
+	padding-right: 1.5%;
+	padding-left: 1.40%;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.logo img {
+	max-width: 100%;
+	padding-top: 0.0625%;
+	padding-left: 26.0%;
+	
+	
+}
+
+
+.header p {
+	text-indent: -79.3571428571429%;
+	margin: 0%;
+	padding: 0%;
+	
+}
+nav {
+	padding-left: 16.0%;
+	background-color: #fff;
+	padding-top: 2px;
+	
+}
+
+.header {
+	background-color: #FFFFFF;
+	margin: 0;
+	padding: 0;
+}
+
+.logo {
+	background-color: #FFFFFF;
+	margin: 0%;
+	padding: 0%;
+}
+
+
+a:link {
+	color: #7E4E24;
+	text-decoration: underline;
+}
+a:visited {
+	color: #D5C69D;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { 
+	text-decoration: none;
+	color: #506B75;
+}
+
+
+.container {
+	width: 65%;
+	max-width: 1260px;
+	min-width: 480px;
+	background-color: #FFFFFF;
+	margin: 0 auto;
+	background-position: 0px 100px;
+	-webkit-border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	border-radius: 0.5em;
+
+}
+#step1 {
+	padding-top: 2%;
+}
+
+
+.content {
+	background-image: url(../images/texturebackground.png);
+	background-repeat: repeat-y;
+	border-style: none;
+	padding-left: 18.5%;
+}
+label {
+	font-size: 0.625em;
+	color: #D5C69D;
+}
+.container .content form {
+	padding-left: 28%;
+	padding-top: 2%;
+}
+legend {
+	color: #FFF;
+	padding-left: 2%;
+	background-image: url(../images/step1background.png);
+	background-repeat: no-repeat;
+	 
+}
+.content form {
+	
+	padding-left: 5%;
+}
+
+
+.content ul, .content ol {
+	padding: 0 15px 0px 40px;
+}
+ 
+
+.contact {
+	text-align: center;
+	background-position: 2px;
+}
+form p {
+	font-size: 0.625em;
+	color: #D5C69D;
+}
+#confirm {
+	padding-top: 5%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 5%;
+	background-image: url(../images/formpage4confirmation.png);
+	background-repeat: no-repeat;
+	font-size: 0.75em;
+}
+#done {
+	padding-top: 10%;
+	padding-left: 25%;
+	
+}
+
+#uptothree {
+	padding-left: 20%;
+}
+
+.form1 {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-right: 23%;
+	background-image: url(../images/Firstclasschoice.png);
+	background-repeat: no-repeat;	
+}
+
+
+.form2 {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-right: 23%;
+	background-image: url(../images/Secondclasschoice.png);
+	background-repeat: no-repeat;
+}
+
+.form3 {
+	padding-top: 5%;
+	padding-bottom: 10%;
+	padding-right: 23%;
+	background-image: url(../images/Thirdclasschoice.png);
+	background-repeat: no-repeat;
+}
+#bottomscroll {
+	padding-top: 6%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 959px) {
+/*.container{ background-color:#039;
+	
+}
+*/
+.header img {
+	max-width: 100%;
+	padding-right: 1.5%;
+	padding-left: 1.0%;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.content fieldset {
+}
+.logo img {
+	max-width: 100%;
+	padding-top: 0.0625%;
+	padding-left: 15.0%;
+}
+.content {
+	background-image: url(../images/texturebackground.png);
+	background-repeat: no-repeat;
+	border-style: none;
+	padding-left:5%;
+	padding-right:5%;
+	
+}
+
+}
+	
+/*Mobile landscape size to Tablet Portrait size (Devices and Browsers)*/
+@media screen and (min-width: 480px) and (max-width: 767px) {
+/*.container{
+	background-color: #0C6;	
+	
+	
+}
+*/
+
+.header img {
+	max-width: 100%;
+	padding-right: 1.5%;
+	padding-left: 0.065%;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.logo img {
+	max-width: 100%;
+	padding-top: 0.0625%;
+	padding-left: 0.075%;
+}
+.content {
+	background-image: url(../images/texturebackground.png);
+	background-repeat: no-repeat;
+	border-style: none;
+	padding-left:5%;
+	padding-right:5%;
+	
+}
+
+
+}
+
+/*Mobile Portrait size to Mobile Landscape size (Devices and Browsers)*/
+@media screen and (max-width: 479px) {
+/*.container{
+	background-color: #FC3;
+}
+*/
+.header img {
+	max-width: 100%;
+	padding-right: 1.5%;
+	padding-left: 0.065%;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.logo img {
+	max-width: 100%;
+	padding-top: 0.0625%;
+	padding-left: 0.075%;
+}
+.content {
+	background-image: url(../images/texturebackground.png);
+	background-repeat: no-repeat;
+	border-style: none;
+	padding-left:2%;
+	padding-right:2%;
+	
+}
+
+
+}
+
+	
