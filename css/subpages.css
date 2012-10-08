@@ -151,9 +151,10 @@ a:hover, a:active, a:focus {
 .content p {
 	padding-left: 10%;
 }
-.logo img {
-	padding-left: 30%;
-	padding-right: 30%;
+.logo {
+	padding-left: 22%;
+	
+	
 }
 .header a img {
 	background-color: #fff;

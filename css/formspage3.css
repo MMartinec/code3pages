@@ -53,10 +53,12 @@ img {
 	margin-top: 0;
 	margin-bottom: 0;
 }
-.logo img {
+.logo {
 	max-width: 100%;
 	padding-top: 0.0625%;
-	padding-left: 26.0%;
+	padding-left: 23.6%;
+	background-color: #FFFFFF;
+	margin: 0%;
 	
 	
 }
@@ -81,11 +83,7 @@ nav {
 	padding: 0;
 }
 
-.logo {
-	background-color: #FFFFFF;
-	margin: 0%;
-	padding: 0%;
-}
+
 
 a:link {
 	color: #7E4E24;
@@ -101,7 +99,7 @@ a:hover, a:active, a:focus {
 }
 
 .container {
-	width: 65%;
+	width: 80%;
 	max-width: 1260px;
 	min-width: 480px;
 	background-color: #FFFFFF;
@@ -115,8 +113,10 @@ a:hover, a:active, a:focus {
 	background-image: url(../images/texturebackground.png);
 	background-repeat: repeat-y;
 	border-style: none;
-	padding-left: 18.5%;
+	padding-left: 10%;
+	padding-right: 10%;	
 }
+
 label {
 	font-size: 0.625em;
 	color: #D5C69D;
@@ -130,11 +130,11 @@ legend {
 	 
 }
 .content form {
+	padding-left: 26%;
+	padding-top: 2%;
 	background-image: url(../images/bluebackdropstep3.png);
 	background-repeat: no-repeat;
-	padding-left: 28%;
 	
-	padding-top: 2%;
 }
 
 .content ul, .content ol {
@@ -144,6 +144,7 @@ form p {
 	font-size: 0.625em;
 	color: #D5C69D;
 }
+
 
  
 @media screen and (min-width: 768px) and (max-width: 959px) {
@@ -158,8 +159,7 @@ form p {
 	margin-top: 0;
 	margin-bottom: 0;
 }
-.content fieldset {
-}
+
 .logo img {
 	max-width: 100%;
 	padding-top: 0.0625%;
