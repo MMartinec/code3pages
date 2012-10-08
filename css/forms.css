@@ -120,7 +120,7 @@ a:hover, a:active, a:focus {
 
 .content {
 	background-image: url(../images/texturebackground.png);
-	background-repeat: no-repeat;
+	background-repeat: repeat-y;
 	border-style: none;
 	padding-left: 18.5%;
 }
